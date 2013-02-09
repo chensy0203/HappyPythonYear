@@ -92,7 +92,7 @@ class snake(Frame):
                         if(self.happyNewYear[i][j] == 1):
                                 #reverse
                                 self.happyNewYearXY.append((j,i))
-                                self.canvas.create_rectangle(  j*s, i*s,(j+1)*s,(i+1)*s,fill="green")
+                                #self.canvas.create_rectangle(  j*s, i*s,(j+1)*s,(i+1)*s,fill="green")
                             
         def getNextFood(self):
                 i=random.randrange(0,len(self.happyNewYearXY))
